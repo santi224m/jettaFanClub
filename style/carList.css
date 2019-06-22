@@ -1,0 +1,14 @@
+/* .pink {
+  border: 2px solid pink;
+} */
+
+.listLinks a {
+  color: red;
+  font-size: 2em;
+  display: block;
+  text-align: center;
+}
+
+.listLinks {
+  list-style-type: none;
+}

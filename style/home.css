@@ -1,0 +1,48 @@
+/* .resizePics {
+  width: 444;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.thumbnail{
+    width : 100%;
+    height: auto;
+    overflow: auto;
+    border: none;
+}
+
+.thumbnail img{
+    width: 50%;
+    height: auto;
+    display: block;
+}
+
+.recentPost, .news {
+  border: 2px solid black;
+  height: 480px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.news {
+  border-left: none;
+}
+
+.postText {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.recentPost a {
+  color: red;
+  display: block;
+  text-align: center;
+  font-size: 1.4em;
+}
